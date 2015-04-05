@@ -14,6 +14,8 @@
 		2AB0FCAF1AD1AD3100585C79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB0FCAE1AD1AD3100585C79 /* Images.xcassets */; };
 		2AB0FCB21AD1AD3100585C79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AB0FCB01AD1AD3100585C79 /* LaunchScreen.xib */; };
 		2AB0FCBE1AD1AD3100585C79 /* HomeSafe2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0FCBD1AD1AD3100585C79 /* HomeSafe2Tests.swift */; };
+		2AB0FCC81AD1B13200585C79 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0FCC71AD1B13200585C79 /* Settings.swift */; };
+		2AB0FCCC1AD1B80A00585C79 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0FCCB1AD1B80A00585C79 /* TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		2AB0FCB71AD1AD3100585C79 /* HomeSafe2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeSafe2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB0FCBC1AD1AD3100585C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AB0FCBD1AD1AD3100585C79 /* HomeSafe2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSafe2Tests.swift; sourceTree = "<group>"; };
+		2AB0FCC71AD1B13200585C79 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		2AB0FCCB1AD1B80A00585C79 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				2AB0FCAE1AD1AD3100585C79 /* Images.xcassets */,
 				2AB0FCB01AD1AD3100585C79 /* LaunchScreen.xib */,
 				2AB0FCA31AD1AD3100585C79 /* Supporting Files */,
+				2AB0FCC71AD1B13200585C79 /* Settings.swift */,
+				2AB0FCCB1AD1B80A00585C79 /* TableView.swift */,
 			);
 			path = HomeSafe2;
 			sourceTree = "<group>";
@@ -216,7 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AB0FCAA1AD1AD3100585C79 /* SecondViewController.swift in Sources */,
+				2AB0FCCC1AD1B80A00585C79 /* TableView.swift in Sources */,
 				2AB0FCA61AD1AD3100585C79 /* AppDelegate.swift in Sources */,
+				2AB0FCC81AD1B13200585C79 /* Settings.swift in Sources */,
 				2AB0FCA81AD1AD3100585C79 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
